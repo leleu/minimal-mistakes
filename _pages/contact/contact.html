@@ -1,11 +1,11 @@
 ---
 layout: single
-permalink: /contact
+permalink: /contact/
 title: Contact Oliphant Data
 author_profile: false
 ---
           <div class="page__comments-form">
-            <form id="new_comment" class="page__comments-form form" netlify name="Contact Us Page Form" method="POST">
+            <form id="new_comment" class="page__comments-form form" netlify name="Contact Us Page Form" method="POST" action="/contact/confirmation/">
               <div class="form-group">
                 <label for="comment-form-name">{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }} <small class="required">*</small></label>
                 <input type="text" id="comment-form-name" name="name" tabindex="1" />
