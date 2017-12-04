@@ -2,8 +2,8 @@
 main:
   - title: "Contact"
     url: /contact-us/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Data Nerd Blog"
+    url: https://travisleleu.com/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
