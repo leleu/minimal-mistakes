@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Contact"
-    url: /contact-us/
   - title: "Data Nerd Blog"
     url: https://travisleleu.com/
+  - title: "Contact"
+    url: /contact-us/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
