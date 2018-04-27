@@ -3,6 +3,7 @@ layout: splash
 permalink: /
 title: "Data Science Support"
 excerpt: "We are a data consultancy that takes care of your data dirty work -- acquisition, ETL, and infrastructure.  Your Data Science team can focus on producing valuable insights for your business."
+excerpt: "Let your Data Science team focus on producing valuable insights and leave the dirty work of data preparation to us.  We are data engineering specialists available for hire on a contract basis."
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/8280865903_6d42834f78_k.jpg
@@ -14,18 +15,61 @@ feature_row:
     image_size: 24px
     alt: "Data Contracting"
     title: "Acquisition/ETL"
-    excerpt: "Absolve your data science team from doing infrastructure and ETL work.  They will provide results much faster while thanking you for eliminating their least favorite part of the job."
+    excerpt: "Eliminate the least favorite part of every data scientist's job.  Improve team effectiveness and morale by hiring a specialist to do the dirty work."
+    url: "/data-acquisition-etl-makes-data-science-teams-better"
+    btn_label: "Read About Data Preparation"
+    btn_class: "btn--primary"
   - image_path: /assets/images/mlai.png
     alt: "Data Warehouse"
     title: "Data Warehouse"
     excerpt: "Nearly every data science team dreams of a fast, up-to-date, and clean data warehouse.  Few have the experience or bandwidth to build a strong foundation."
+    url: "/why-build-a-data-warehouse"
+    btn_label: "Why Build a Data Warehouse?"
+    btn_class: "btn--primary"
   - image_path: /assets/images/integrations.svg
     alt: "integrations"
     title: "Vendor Integrations"
     excerpt: "Get more value out of your vendors by integrating their services to automate your business processes.  We handle the setup, integration, and maintenance for you."
+    url: "/vendor-integrations"
+    btn_label: "Get More Value From Vendors"
+    btn_class: "btn--primary"
+support_your_data_science_team:
+  - image_path: /assets/images/bodybuilder-weight-training-stress-38630.jpeg
+    image_fullwidth: true
+    alt: "Support Your Data Scientists"
+    title: "Support Your Data Scientists"
+    excerpt: 'Data scientists continue to spend the most amount of their time on the work they like the least -- namely collecting, labeling, cleaning, and organizing data.  Be a hero and super charge your data scientists when you get them help with their least favorite part of the job.'
+    url: "/data-scientists-least-favorite-tasks"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+strong_data_foundations:
+  - image_path: /assets/images/network-2402637_1280.jpg
+    image_fullwidth: true
+    alt: "Strong Data Foundations"
+    title: "Build Strong Data Foundations"
+    excerpt: 'Strong data foundations -- clean data that has been well-modeled to the domain -- improve the speed and effectiveness of your data science efforts.  Data Scientists work best when they have a clean dataset that has been pre-processed to their specifications.'
+    url: "/strong-data-foundations"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+when_to_contract:
+  - image_path: /assets/images/construction-646460_1280.jpg
+    image_fullwidth: true
+    alt: "When Contracting Data Engineering Makes Sense"
+    title: "When Contracting Makes Sense"
+    excerpt: 'If your engineering team is under 20 people, but has 1 or more data scientists, it makes sense to contract out data foundation work.  If your data scientists complain how much time they waste cleaning data.  If you are looking to build a new data pipeline, but doubt it will require full-time work after the launch.'
+    url: "/when-does-it-make-sense-to-contract-data-engineering-tasks"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+
+
 ---
 
 {% include feature_row id="intro" type="center" %}
-
+<h1 style="margin:auto; margin-bottom: 25px">Services</h1>
 {% include feature_row %}
+<h1 style="margin:auto; margin-bottom: 25px">Featured Articles</h1>
+{% include feature_row id="support_your_data_science_team" type="left" %}
 
+{% include feature_row id="strong_data_foundations" type="right" %}
+
+{% include feature_row id="when_to_contract" type="left" %}

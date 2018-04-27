@@ -18,7 +18,11 @@
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
-            <img style="width: 75% !important; padding-right: 20%; padding-left: 20%" src=
+            {% if f.image_fullwidth %}
+              <img src=
+            {% else %}
+              <img style="width: 75% !important; padding-right: 20%; padding-left: 20%" src=
+            {% endif %}
               {% if f.image_path contains "://" %}
                 "{{ f.image_path }}"
               {% else %}
@@ -30,7 +34,11 @@
 
         <div class="archive__item-body">
           {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
+            <h2 class="archive__item-title">
+              {% if f.url %}<a href="{{ f.url }}">{% endif %}
+              {{ f.title }}
+              {% if f.url %}</a>{% endif %}
+            </h2>
           {% endif %}
 
           {% if f.excerpt %}

@@ -1,11 +1,11 @@
 theme: minimal-mistakes-jekyll
 
 
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # Site Settings
 logo                     : "/assets/images/logo.png"
 locale                   : "en"
-title                    : "Oliphant Data | Support your Data Science team"
+title                    : "Oliphant Data"
 title_separator          : "-"
 name                     : "Oliphant Data"
 description              : "Oliphant Data is a data consulting firm, specializing in the dirty work of data science: acquisiton, ETL, infrastructure."
@@ -232,10 +232,9 @@ compress_html:
   ignore:
     envs: development
 
-
 # Defaults
 defaults:
-  # _posts
+    # _posts
   - scope:
       path: ""
       type: posts

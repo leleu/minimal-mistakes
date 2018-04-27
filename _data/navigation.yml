@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Articles"
-    url: /articles/
+  # - title: "Articles"
+  #   url: /articles/
   - title: "Contact"
     url: /contact-us/
   # - title: "Sample Posts"
