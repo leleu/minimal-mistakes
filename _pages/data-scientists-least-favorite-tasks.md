@@ -1,12 +1,14 @@
 ---
-title: "Time Wasting Morale Killing Tasks"
+title: "Support Data Scientists with Janitorial Services"
 layout: single
 permalink: /data-scientists-least-favorite-tasks
 author_profile: true
 published: true
 classes: wide
+header:
+  image: /assets/images/data-scientists-least-favorite-tasks-head.jpeg
 ---
-> “It’s an absolute myth that you can send an algorithm over raw data and have insights pop up,”  - https://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html
+> “It’s an absolute myth that you can send an algorithm over raw data and have insights pop up." [NYTimes.com](https://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html)
 
 ## Summary
 * Data Wrangling and ETL are necessary preparatory steps before generating valuable nuggets
@@ -30,7 +32,7 @@ Estimates vary how much time is spent by data scientists on data janitor tasks. 
 The work can be tedious and mind numbing.  Many data scientists spent years doing graduate level mathematics and earned PhDs, and [don't want to spend their time as data janitors](https://amplitude.com/blog/2016/07/19/stop-treating-data-scientist-like-janitor/).  [Surveys](https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/#31189ab36f63) regularly show it's [their least favorite part of the job](https://www.infoworld.com/article/3047584/big-data/hottest-job-data-scientists-say-theyre-still-mostly-digital-janitors.html)
 
 ## Liberate Your Data Scientists
-Teams with more than a few data scientists should look at hiring a data engineer.  Everyone should look at automation or [crowdsourcing](https://crowdflower.com) options.  Smaller teams lacking automation experience should consider contracting the work to a specialist.
+Teams with more than a few data scientists should look at hiring a data engineer.  Everyone should look at [automation](https://trifacta.com) or [crowdsourcing](https://crowdflower.com) options.  Smaller teams lacking automation experience should consider contracting the work to a specialist.
 
 ### Related Content
 * [When Does Contracting Make Sense?](/when-does-it-make-sense-to-contract-data-engineering-tasks)
