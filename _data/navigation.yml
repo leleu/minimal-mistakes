@@ -1,9 +1,7 @@
 # main links
 main:
-  - title: "Executive Dashboard"
+  - title: "Executive Dashboards"
     url: /what-is-an-executive-dashboard/
-  - title: "Economics of Contracting"
-    url: /when-contracting-makes-sense/
   - title: "Contact"
     url: /contact-us/
   # - title: "Sample Posts"
