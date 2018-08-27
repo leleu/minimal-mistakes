@@ -4,30 +4,4 @@ permalink: /contact-us
 title: Contact Oliphant Data
 author_profile: false
 ---
-
-          <div class="page__comments-form" style="border: 1px dotted black; background-color: #d3d2b5">
-            <form id="new_comment" class="page__comments-form form" netlify name="Contact Us Page Form" method="POST" action="/contact/confirmation/" style="background-color: #d3d2b5">
-              <div class="form-group">
-                <label for="comment-form-name">{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }} <small class="required">*</small></label>
-                <input type="text" id="comment-form-name" name="name" tabindex="1" />
-              </div>
-              <div class="form-group">
-                <label for="comment-form-email">{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email address" }} <small class="required">*</small></label>
-                <input type="email" id="comment-form-email" name="email" tabindex="2" />
-              </div>
-              <div class="form-group">
-                <label for="comment-form-url">{{ site.data.ui-text[site.locale].comment_form_website_label | default: "Website" }}</label>
-                <input type="url" id="comment-form-url" name="url" tabindex="3"/>
-              </div>
-              <div class="form-group hidden" style="display: none;">
-                <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
-              </div>
-            <div class="form-group">
-                <label for="comment-form-message">What's Up?</label>
-                <textarea type="text" rows="3" id="comment-form-message" name="message" tabindex="4"></textarea>
-              </div>
-              <div class="form-group">
-                <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large">Contact Us</button>
-              </div>
-            </form>
-          </div>
+{% include contact-form.html %}
